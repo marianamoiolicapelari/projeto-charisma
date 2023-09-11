@@ -1,8 +1,12 @@
-import {Wrapper} from './styles'
+import { Wrapper } from './styles'
+import Charisma from '../../assets/charisma.png'
 
 const Footer = () => {
     return (
-        <Wrapper><h1>Footer</h1></Wrapper>
+        <Wrapper>
+            <p>© Todos os direitos reservados charisma</p>
+            <img src={Charisma} alt="" />
+        </Wrapper>
     )
 }
 
