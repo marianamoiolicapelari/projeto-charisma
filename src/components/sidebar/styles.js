@@ -25,22 +25,65 @@ export const SidebarImage = styled.div`
     img {
         width: 180px;
     }
-
+    
     @media screen and (max-width: 978px) {
         justify-content: space-between;
         align-items: center;
     }
-`
+    `
 
 export const SidebarIcon = styled.div`
         display: none;
-
+        
         i {
-        color: 	#fff;
-        font-size: 1.5rem;       
-    }
+            color: 	#fff;
+            font-size: 1.5rem;       
+        }
+        
+        @media screen and (max-width: 978px) {
+            display: inline;
+        }
+`
 
-    @media screen and (max-width: 978px) {
-        display: inline;
-    }
+export const SidebarMenu = styled.div`
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;        
+`
+
+export const DropdownStyle = styled.div`
+  li {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  a {
+    text-decoration: none;
+    padding-left: 20px;      
+  }  
+`
+
+export const SidebarLinkStyle = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 25px 15px 5px 20px;
+    cursor: pointer;  
+
+.sidebar-items {
+  display: flex;
+  align-items: center; 
+}
+
+.sidebar-items > svg {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.arrow-icon {
+  display: flex;  
+}
 `
