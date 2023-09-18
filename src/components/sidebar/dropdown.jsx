@@ -6,10 +6,10 @@ export default function Dropdown() {
     <DropdownStyle className="dropdown">
       <ul>
         <li>
-          <Link to="/relatorios" style={{color: '#fff', fontFamily: 'Roboto Condensed, sans-serif'}}>Relatórios</Link>
+          <Link to="/relatorios">Relatórios</Link>
         </li>
         <li>
-          <Link to="/noticias" style={{color: '#fff', fontFamily: 'Roboto Condensed, sans-serif'}}>Consulta de Notícias</Link>
+          <Link to="/noticias">Consulta de Notícias</Link>
         </li>
       </ul>
     </DropdownStyle>

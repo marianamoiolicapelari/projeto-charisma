@@ -11,7 +11,7 @@ import ImageLogo from '../../assets/quinto-andar.png'
 import SidebarLink from './sidebarLink'
 import Dropdown from './dropdown'
 
-const Sidebar = ({ openSidebarToggle, OpenSidebar }) => {
+const Sidebar = ({ openSidebarToggle, openSidebar }) => {
     const [showDashboardDropdown, setShowDashboardDropdown] = useState(false)
 
     const toggleDashboardDropdown = () => {
@@ -22,7 +22,7 @@ const Sidebar = ({ openSidebarToggle, OpenSidebar }) => {
         <Wrapper openSidebarToggle={openSidebarToggle}>
             <SidebarImage>
                 <img src={ImageLogo} alt="logo" />
-                <SidebarIcon onClick={OpenSidebar}>
+                <SidebarIcon onClick={openSidebar}>
                     <i><FaRegWindowClose /></i>
                 </SidebarIcon>
             </SidebarImage>

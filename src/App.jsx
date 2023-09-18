@@ -16,8 +16,8 @@ function App() {
 
     return (
         <>            
-            <Navbar OpenSidebar={openSidebar} />
-            <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={openSidebar}/>
+            <Navbar openSidebar={openSidebar} />
+            <Sidebar openSidebarToggle={openSidebarToggle} openSidebar={openSidebar}/>
             <Outlet />
             <Footer />
         </>

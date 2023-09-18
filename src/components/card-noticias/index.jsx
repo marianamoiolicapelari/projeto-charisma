@@ -58,6 +58,53 @@ const CardNoticias = () => {
       tier: 1,
       secao: 'Nome da Seção',
       texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor ligula nunam nulla velit congue a accumsan id, pellentesque congue sem.'
+    },
+    {
+      id: 5,
+      imagem: Charisma,
+      data: '20 de Maio de 2023',
+      titulo: 'Título da Notícia',
+      visualizacao: 27456,
+      valoracao: 165,
+      fonte: 'Charisma',
+      tier: 1,
+      secao: 'Nome da Seção',
+      texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor ligula nunam nulla velit congue a accumsan id, pellentesque congue sem.'
+    },
+    {
+      id: 6,
+      imagem: Charisma,
+      data: '20 de Maio de 2023',
+      titulo: 'Título da Notícia',
+      visualizacao: 27456,
+      valoracao: 165,
+      fonte: 'Charisma',
+      tier: 1,
+      secao: 'Nome da Seção',
+      texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor ligula nunam nulla velit congue a accumsan id, pellentesque congue sem.'
+    },
+    {
+      id: 7,
+      imagem: Charisma,
+      data: '20 de Maio de 2023',
+      titulo: 'Título da Notícia',
+      visualizacao: 27456,
+      valoracao: 165,
+      fonte: 'Charisma',
+      tier: 1,
+      secao: 'Nome da Seção',
+      texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor ligula nunam nulla velit congue a accumsan id, pellentesque congue sem.'
+    }, {
+      id: 8,
+      imagem: Charisma,
+      data: '20 de Maio de 2023',
+      titulo: 'Título da Notícia',
+      visualizacao: 27456,
+      valoracao: 165,
+      fonte: 'Charisma',
+      tier: 1,
+      secao: 'Nome da Seção',
+      texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor ligula nunam nulla velit congue a accumsan id, pellentesque congue sem.'
     }
   ]
 

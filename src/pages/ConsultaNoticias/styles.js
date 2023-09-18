@@ -4,7 +4,7 @@ export const Container = styled.div`
    position: absolute;
    right: 0; 
    margin-top: 80px;
-   height: calc(100% - 120px);
+   height: auto;
    width: 85%;
    background: #fcfcfc;
    padding: 2em;
@@ -88,10 +88,10 @@ export const Navigation = styled.div`
    padding: 1.5em 0 0 0;
 
 
-h2 {
-      font-size: 1em;
-      font-weight: 600;
-   }
+   h2 {
+         font-size: 1em;
+         font-weight: 600;
+      }
 
 `
 

@@ -59,7 +59,9 @@ export const DropdownStyle = styled.div`
 
   a {
     text-decoration: none;
-    padding-left: 20px;      
+    padding-left: 20px;  
+    color: #fff;
+    /* font-family: 'Roboto Condensed, sans-serif';   */
   }  
 `
 
@@ -72,6 +74,12 @@ export const SidebarLinkStyle = styled.div`
     color: white;
     margin: 25px 15px 5px 20px;
     cursor: pointer;  
+
+    &:hover {
+      background-color: #054f77;
+      padding: 5px 2px;
+      border-radius: 5px;
+    }
 
 .sidebar-items {
   display: flex;

@@ -4,11 +4,11 @@ import { FaBars } from "react-icons/fa"
 import { AiOutlineSetting, AiOutlineBell } from "react-icons/ai";
 import Charisma from '../../assets/charisma.png'
 
-const Navbar = ({ OpenSidebar }) => {
+const Navbar = ({ openSidebar }) => {
 
     return (
         <Wrapper>
-            <NavbarIcon onClick={OpenSidebar}>
+            <NavbarIcon onClick={openSidebar}>
                 <i><FaBars /></i>
             </NavbarIcon>
             <NavbarItems>
